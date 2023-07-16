@@ -1,0 +1,263 @@
+
+
+
+   
+
+   
+
+body{
+    background-color:#000 ;
+    color:white;
+
+   /*-----------FRONT PAGE------------- */
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("netflix-back.jpg");
+     background-size: cover;
+     background-position: center;
+     padding:10px,8%;
+     position:relative;
+     
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding:10px 0;
+    
+
+}
+.logo{
+    width:200px;
+    padding-top: 10px;
+}
+select{
+    background:transparent;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+    
+  
+    
+}
+button{
+    background-color: red;
+    color: aliceblue;
+    border: 0;
+    padding:11px;
+    border-radius: 5px;
+    
+}
+.middle{
+    width:100%;
+    height: 55vh;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: visby;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+.get{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+    
+    
+}
+.get input[type=email]{
+    background-color: transparent;
+    color:aliceblue;
+    border-radius: 5px;
+    padding-right: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 2px;
+    position:absolute;
+   
+    
+
+    
+
+}
+.get p{
+    background-color: red;
+    border: 0;
+    border-radius: 5px;
+    padding:9px;
+    position: relative;
+    left:21%;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*-----------FEATURES------------- */
+td{
+    padding: 30px;
+}
+/*-----------END PAGE------------- */
+.hh{ 
+    height: 50px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    
+    padding-left: 300px;
+}
+
+
+.qns{
+   margin: 60px auto;
+   width:100%;
+   max-width: 750px;
+}
+.qns li {
+    list-style: none;
+    padding: 5px;
+    width:100% ;
+
+}
+.qns li label{
+    display:flex;
+    align-items: center;
+    font-size: 30px;
+    padding: 10px;
+    font-weight: 100;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+    
+}
+input[type=radio]{
+    display:none
+
+    }
+    .qns .cont{
+        background-color: #303030;
+        text-align: left;
+        padding: 0 20px;
+       /* max-height: 0;
+        overflow: hidden;*/
+        font-size: 20px;
+        display: none;
+       
+
+    }
+    .qns input[type=radio]:checked + label + .cont{
+      /*  max-height: 600px;*/
+        padding: 30px;
+        display: inline-block;
+
+    }
+
+   label::after{
+    content: '+';
+    font-size: 35px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+ }
+ .qns input[type=radio]:checked + label::after{
+    transform: rotate(135deg);
+ }
+   
+
+
+
+
+
+ 
+  .qnc-end{
+    width:600px;
+   
+   position: relative;
+    
+    left: 30%;
+   
+   
+}
+ 
+  
+  .em-get{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    justify-content: center;
+    
+}
+.em-get input[type=email]{
+    background-color: transparent;
+    width:320px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: 600;
+    
+
+}
+.em-get p{
+    background-color: red;
+    border: none;
+    padding: 12px;
+    margin:2px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+.based{
+    position: relative;
+    top: 100px;
+    left: 100px;
+    width:700px ;
+}
+.based p{
+    color: aliceblue;
+    font-weight: 300;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.base{
+    width:600px;
+   
+    height: 300px;
+    display: flex;
+   
+    flex-wrap: wrap;
+    text-decoration: none;
+    margin-top: 50px;
+  
+   
+    
+}
+.base a{
+    width:200px;
+    height: 50px;
+}
+  a{
+    color: aliceblue;
+    font-weight: 300;
+    font-size: 20px;
+    text-decoration: none;
+
+  }
+  
+        
+        
+    
+   
+  
+        
+        
+        
+        
+ 
+   
+ 
+
+ 
